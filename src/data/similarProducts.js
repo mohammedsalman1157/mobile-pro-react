@@ -1,0 +1,38 @@
+export const similarProducts = [
+    {
+        image: "https://veirdo.in/cdn/shop/files/Hustle-Black-Oversized-T-Shirt-Veirdo-6593.jpg?v=1707145690&width=360",
+        oldPrice: "1,223",
+        price: "₹139",
+        rating: "4.5",
+        purchaseCount: "1.5k",
+        name: "Truth Beige Oversized Tshirt",
+        offer: "5",
+    },
+    {
+        image: "https://veirdo.in/cdn/shop/files/1.jpg?v=1707370235&width=360",
+        oldPrice: "₹499",
+        price: "₹299",
+        rating: "4.0",
+        purchaseCount: "2.5k",
+        name: "Hustle Black Oversized Tshirt",
+        offer: "12",
+    },
+    {
+        image: "https://veirdo.in/cdn/shop/files/1_134bf658-42b5-4fdd-8755-394ddac259a8.jpg?v=1707376663&width=360",
+        oldPrice: "₹2499",
+        price: "₹1,299",
+        rating: "5.0",
+        purchaseCount: "2.1k",
+        name: "Dope Stuff Beige Oversized Tshirt",
+        offer: "13",
+    },
+    {
+        image: "https://veirdo.in/cdn/shop/files/Doodle-Print-Oversized-Lilac-T-Shirt-Veirdo-4750.jpg?v=1707138558&width=360",
+        oldPrice: "₹3,499",
+        price: "₹2,299",
+        rating: "4.6",
+        purchaseCount: "2.5k",
+        name: "Doodle Lilac Oversized Tshirt",
+        offer: "31",
+    },
+];

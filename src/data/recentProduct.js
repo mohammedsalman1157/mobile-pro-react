@@ -1,0 +1,38 @@
+export const recentProducts = [
+    {
+        image: "https://veirdo.in/cdn/shop/files/26.jpg?v=1707564717&width=360",
+        oldPrice: "₹1,199",
+        price: "₹499",
+        rating: "3.7",
+        purchaseCount: "1.2k",
+        name: "Veirdo Blue Oversized Tshirt",
+        offer: "15",
+    },
+    {
+        image: "https://veirdo.in/cdn/shop/files/35.jpg?v=1707566129&width=360",
+        oldPrice: "473",
+        price: "₹299",
+        rating: "4.8",
+        purchaseCount: "7k",
+        name: "Black Veirdo T-shirt",
+        offer: "20",
+    },
+    {
+        image: "https://veirdo.in/cdn/shop/files/Graphical-Flower-Printed-Black-Oversized-T-Shirt-Veirdo-9256.jpg?v=1707142669&width=360",
+        oldPrice: "₹7,799",
+        price: "₹1,299",
+        rating: "5.0",
+        purchaseCount: "1.0k",
+        name: "Flower Print Black Oversized Tshirt",
+        offer: "20",
+    },
+    {
+        image: "https://veirdo.in/cdn/shop/files/Black-Spidey-Original-Marvel-Oversized-Tee-Veirdo-7773.jpg?v=1707127141&width=360",
+        oldPrice: "₹4,499",
+        price: "₹2,299",
+        rating: "4.4",
+        purchaseCount: "1.0k",
+        name: "Spidey Black Oversized Tshirt",
+        offer: "20",
+    },
+];
