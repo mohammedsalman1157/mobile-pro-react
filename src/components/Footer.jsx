@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <footer class="bg-green-600">
-            <div class="container mx-auto py-8 flex  lg:flex-row justify-between items-center">
-                <div class="mb-4 lg:mb-0 mr-0 lg:mr-8 lg:order-2">
+        <footer class="bg-green-600 mt-20">
+            <div class="container mx-auto py-8 flex  flex-col md:flex-row lg:flex-row  justify-between items-center">
+                <div class="mb-4 lg:mb-0 lg:mr-8 lg:order-2">
                     <h4 class="text-white font-bold text-2xl">
                         JOIN OUR <br />
                         VEIRDO FAM
@@ -14,38 +14,41 @@ function Footer() {
                     </p>
                 </div>
 
-                <form class="flex items-center lg:order-1">
-                    <input
-                        type="email"
-                        placeholder="Enter your email"
-                        class="bg-white px-4 py-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
-                    />
-                    <button
-                        type="submit"
-                        class="bg-[#a63fae] text-white px-4 py-2 rounded-r-md"
-                    >
-                        Subscribe
-                    </button>
+                <form class="flex items-center lg:order-1 mt-4 lg:mt-0 relative w-1/3">
+                    <div class="relative w-full">
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            class="w-full bg-white px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500"
+                        />
+                        <button
+                            type="submit"
+                            class="bg-[#a63fae] text-white px-4 items-center h-8 mt-1 mr-1 rounded-md absolute right-0 top-0 bottom-0  capitalize"
+                        >
+                            Subscribe
+                        </button>
+                    </div>
                 </form>
             </div>
-            <div class="w-full flex justify-between">
-                <div class="flex-1 flex justify-center items-center border border-[#112c20]">
+
+            <div class="w-full flex flex-wrap justify-between">
+                <div class="flex-1 flex justify-center items-center border border-[#112c20] mb-2">
                     <span class="text-[#112c20] font-bold">INSTAGRAM</span>
                 </div>
-                <div class="flex-1 flex justify-center items-center border border-[#112c20] ml-[-1px]">
+                <div class="flex-1 flex justify-center items-center border border-[#112c20] mb-2">
                     <span class="text-[#112c20] font-bold">LINKEDIN</span>
                 </div>
-                <div class="flex-1 flex justify-center items-center border border-[#112c20] ml-[-1px]">
+                <div class="flex-1 flex justify-center items-center border border-[#112c20] mb-2">
                     <span class="text-[#112c20] font-bold">WHATSAPP</span>
                 </div>
-                <div class="flex-1 flex justify-center items-center border border-[#112c20] ml-[-1px]">
+                <div class="flex-1 flex justify-center items-center border border-[#112c20] mb-2">
                     <span class="text-[#112c20] font-bold">TWITTER</span>
                 </div>
             </div>
 
             <div class="border-b border-[#112c20]">
                 <div class="container mx-auto px-4">
-                    <div class="grid grid-cols-4 gap-x-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div>
                             <h3 class="text-xl font-bold mb-4">CATEGORIES</h3>
                             <ul>
@@ -92,8 +95,8 @@ function Footer() {
                 </div>
             </div>
 
-            <div class="container mx-auto px-4 flex justify-between items-center">
-                <p>
+            <div class="container mx-auto px-4 flex justify-between items-center mt-4">
+                <p class="text-white">
                     @2023 VEIRDO. All Rights Reserved by Pratyaya E-commerce
                     Pvt. Ltd.
                 </p>

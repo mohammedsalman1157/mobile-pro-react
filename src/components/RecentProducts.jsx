@@ -1,50 +1,44 @@
 import { HeartIcon } from "@heroicons/react/24/outline";
 
 import { recentProducts } from "../data/recentProduct";
-console.log(recentProducts);
 function RecentProducts() {
     return (
-        <div className="container mx-auto">
-            <h1 className="text-center font-bold mb-10 mt-10">
-                RECENTLY VIEWED PRODUCTS
-            </h1>
-            <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4">
+        <div class="flex flex-col bg-white ml-20 mr-20">
+            <h1 class="text-center font-bold mb-10 mt-10">SIMILAR PRODUCTS</h1>
+            <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4">
                 {recentProducts.map((product, index) => (
-                    <div
-                        key={index}
-                        className="bg-white p-6 m-4 rounded-lg shadow-md border border-gray-300"
-                    >
+                    <div class="bg-white p-6 rounded-lg shadow-md border border-[#dee0e0]">
                         <img
                             src={product.image}
-                            alt={product.name}
-                            className="w-full h-64 object-cover rounded-lg"
+                            alt="Product 1"
+                            class="w-full h-64 object-cover rounded-lg"
                         />
-                        <div className="mt-6 flex justify-between">
-                            <div className="text-black-500 font-semibold">
+                        <div class="mt-6 flex justify-between">
+                            <div class="text-black-500 font-semibold">
+                                ₹1,299
+                            </div>
+                            <div class="text-gray-600 line-through">
                                 {product.price}
                             </div>
-                            <div className="text-gray-600 line-through">
-                                {product.oldPrice}
-                            </div>
-                            <div className="text-green-500 font-bold">
+                            <div class="text-green-500 font-bold">
                                 {product.offer}% OFF
                             </div>
                         </div>
-                        <div className="mt-6 flex justify-between">
-                            <div className="text-black-500 font-semibold">
+                        <div class="mt-6 flex justify-between">
+                            <div class="text-black-500 font-semibold">
                                 {product.name}
                             </div>
                         </div>
-                        <div className="mt-6 flex justify-between">
-                            <div className="text-black-500 font-semibold">
+                        <div class="mt-6 flex justify-between">
+                            <div class="text-black-500 font-semibold">
                                 {product.rating} | {product.purchaseCount}
                             </div>
                         </div>
-                        <div className="mt-6 flex justify-between">
-                            <div className="text-black-500 font-semibold">
+                        <div class="mt-6 flex justify-between">
+                            <div class="text-black-500 font-semibold">
                                 Add to cart
                             </div>
-                            <div className="flex items-center">
+                            <div class="flex items-center pr-3">
                                 <HeartIcon
                                     className="h-5 w-5 text-gray-400"
                                     aria-hidden="true"
