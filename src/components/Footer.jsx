@@ -14,7 +14,7 @@ function Footer() {
                     </p>
                 </div>
 
-                <form class="flex items-center lg:order-1 mt-4 lg:mt-0 relative w-1/3">
+                <form class="flex items-center lg:order-1 mt-4 lg:mt-0 relative w-full md:w-1/3">
                     <div class="relative w-full">
                         <input
                             type="email"
